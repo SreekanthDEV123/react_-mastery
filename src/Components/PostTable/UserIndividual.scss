@@ -1,0 +1,28 @@
+.userIndividual {
+         height: 500px;
+         width: 400px;
+         border: 1px solid black;
+         margin: 30px;
+         padding: 10px;
+         background-color: whitesmoke;
+         box-shadow: 0px 5px 15px black;
+         .userInfo {
+                  color: black;
+         }
+         #users {
+                  font-size: 21px;
+                  font-weight: 500;
+         }
+}
+.userButtonRandom {
+         width: 300px;
+         position: sticky;
+         left: 90px;
+}
+
+.userButtonLucky {
+         width: 300px;
+         position: sticky;
+         left: 90px;
+         margin: 10px;
+}

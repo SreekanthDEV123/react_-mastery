@@ -1,0 +1,10 @@
+.restaurentcart1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Adds consistent space between the cards */
+  height: auto;
+  width: 80%; /* Allow the height to adjust based on content */
+  border: 1px solid black;
+  background-color: whitesmoke;
+}

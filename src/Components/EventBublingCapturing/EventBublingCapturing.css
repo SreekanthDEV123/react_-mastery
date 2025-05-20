@@ -1,0 +1,39 @@
+.third {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: blue;
+  align-content: center;
+}
+.second {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: brown;
+  align-content: center;
+  margin: auto;
+}
+.first {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: yellow;
+  align-content: center;
+  margin: auto;
+}
+
+/* inner childs */
+/* 
+display: flex;
+justify-content: center;
+align-items: center; */
+
+/* 
+// parent
+position: relative;
+
+//child
+position: absolute;
+right: 50%;
+bottom: 50%;
+transform: translate(50%, 50%); */

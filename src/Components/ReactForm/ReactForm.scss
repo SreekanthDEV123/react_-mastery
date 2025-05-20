@@ -1,0 +1,70 @@
+.reactForm {
+         height: 650px;
+         width: 720px;
+         border: 1px solid black;
+         margin: 20px;
+         padding: 5px;
+         background-color: #faf3e0;
+         border-radius: 2%;
+         overflow-y: scroll;
+         .registration {
+                  text-align: center;
+                  padding: 5px;
+                  font-weight: bold;
+                  font-size: 26px;
+                  color: firebrick;
+         }
+
+         .inputFiled {
+                  margin: 10px;
+                  display: inline;
+
+                  .reactClassLabel {
+                           font-weight: 600;
+                           font-size: 25px;
+                           color: maroon;
+
+                           // .textarea {
+                           //          height: 70px;
+                           //          width: 200px;
+                           //          padding-top: 1opx;
+                           // }
+                  }
+         }
+         .sportsexcheckbox {
+                  padding: 12px;
+         }
+         .sportsexlabel {
+                  font-weight: 400;
+                  font-size: 17px;
+                  padding: 8px;
+         }
+         .agespan {
+                  margin-left: 275px;
+         }
+         .selectedAge {
+                  font-weight: 700;
+                  font-size: 17px;
+                  margin-left: 79px;
+         }
+         .agerange {
+                  padding: 25px;
+         }
+         .emailbutton {
+                  height: 20px;
+                  width: 200px;
+                  padding: 10px;
+         }
+         .contacttextarea {
+                  height: 100px;
+                  width: 500px;
+                  background-color: whitesmoke;
+                  border-radius: 5%;
+         }
+         .buttonsubmit {
+                  height: 60px;
+                  width: 300px;
+                  border-radius: 30%;
+                  margin-left: 150px;
+         }
+}

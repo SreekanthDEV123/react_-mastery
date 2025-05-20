@@ -1,0 +1,64 @@
+.BoxWrapper {
+         height: 700px;
+         border: 1px solid black;
+         background-color: #fff5ee;
+         margin: 5px;
+         .Register {
+                  color: #800020;
+                  text-align: center;
+                  font-size: 30px;
+                  font-weight: bold;
+         }
+
+         .InputField {
+                  position: relative;
+                  margin-left: 20px;
+                  font-size: 30px;
+                  font-weight: 500;
+                  margin-top: 30px;
+                  .Required {
+                           color: red;
+                           position: relative;
+                           right: 20px;
+                  }
+                  .InputTextSize {
+                           width: 60%;
+                           height: 50px;
+                           border-radius: 5%;
+                  }
+                  .InputSelectSize {
+                           width: 60%;
+                           height: 50px;
+                           border-radius: 5%;
+                           position: relative;
+                           left: 80px;
+                  }
+                  .InputCheckLabelSize {
+                           font-size: 25px;
+                           font-weight: 300;
+                           position: relative;
+                           left: 10px;
+                  }
+                  .InputCheckSize {
+                           width: 39px;
+                           height: 20px;
+                           position: relative;
+                           left: 10px;
+                  }
+         }
+         .buttonSize {
+                  width: 50%;
+                  background-color: blue;
+                  height: 40px;
+                  // textalign: center;
+                  position: relative;
+                  left: 150px;
+                  top: 50px;
+         }
+         .submit {
+                  background-color: blue;
+         }
+         .update {
+                  background-color: red;
+         }
+}

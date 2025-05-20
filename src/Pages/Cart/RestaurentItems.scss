@@ -1,0 +1,59 @@
+.text {
+         width: 100px;
+         margin-top: 10px;
+}
+
+.search {
+         height: 100px;
+         width: 200px;
+         margin: 40px;
+         height: 40px;
+         font-size: 20px;
+         display: flex;
+}
+aside {
+         background-color: aqua;
+         border: 1px solid black;
+}
+.selectcost {
+         margin-top: 39px;
+}
+.cost {
+         border: 3px solid black;
+         margin: 10px;
+}
+.row {
+         margin: 0px;
+         padding: 0px;
+}
+.filterSection {
+         // width: 20%;
+         height: 810px;
+         border: 1px solid #ffffff;
+         border-radius: 10px;
+         // padding: 10px;
+         background-color: ghostwhite;
+         box-shadow:
+                  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+                  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.cardsSection {
+         //width: 80%;
+         height: 810px;
+         overflow-y: scroll;
+         border: 2px solid #ffffff;
+         // margin: 15px;
+         // padding: 10px;
+         margin-left: 27px;
+
+         background-color: ghostwhite;
+         box-shadow:
+                  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+                  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.searchCuisine {
+         height: 40px;
+         width: 50%;
+         float: right;
+         margin: 10px;
+}

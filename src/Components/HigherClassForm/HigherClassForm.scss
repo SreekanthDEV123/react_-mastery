@@ -1,0 +1,45 @@
+.higherClassForm {
+         height: 550px;
+         width: 450px;
+         border: 1 px solid balck;
+         margin: 10px;
+         box-shadow: 0px 5px 10px;
+         background-color: whitesmoke;
+         .registration {
+                  text-align: center;
+                  padding: 5px;
+                  font-weight: bold;
+                  font-size: 26px;
+         }
+
+         .inputField {
+                  margin: 20px;
+
+                  .higherClassForm {
+                           font-weight: 400;
+                           font-size: bold;
+                  }
+                  .checklabel {
+                           margin: 5px;
+                           width: 19px;
+                           height: 17px;
+                           display: inline-block;
+                  }
+         }
+         .submit {
+                  width: 150px;
+                  height: 43px;
+                  text-align: center;
+                  margin-left: 147px;
+                  font-weight: bold;
+                  border-radius: 10px;
+         }
+         .update {
+                  width: 150px;
+                  height: 43px;
+                  text-align: center;
+                  margin-left: 147px;
+                  font-weight: bold;
+                  border-radius: 10px;
+         }
+}

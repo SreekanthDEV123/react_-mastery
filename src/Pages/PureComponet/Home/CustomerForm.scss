@@ -1,0 +1,52 @@
+.customerFormStyle {
+         height: 700px;
+         width: 600px;
+         border: 1px solid black;
+         margin: 30px;
+         background-color: whitesmoke;
+         box-shadow: 0px 5px 10px black;
+
+         .customerFormHeader {
+                  text-align: center;
+                  font-size: 30px;
+                  font-family: fangsong;
+                  font-weight: bold;
+         }
+         .customerFormField {
+                  padding: 20px;
+                  .customerFormLabel {
+                           font-size: 24px;
+                           font-weight: 400;
+
+                           .customerFormSpan {
+                                    color: red;
+                           }
+                  }
+                  .customerInput {
+                           width: 400px;
+                  }
+                  .skillCheckBox {
+                           width: 24px;
+                           height: 22px;
+                           margin: 5px;
+                  }
+                  .skillCheck {
+                           padding: 5px;
+                           display: inline;
+                           .skillCheckLabel {
+                                    font-size: 24px;
+                                    font-weight: normal;
+                           }
+                  }
+                  .customerRequired {
+                           color: red;
+                  }
+         }
+         .customerSubmitButton {
+                  display: flex;
+                  justify-content: center;
+                  .submitButton {
+                           width: 231px;
+                  }
+         }
+}

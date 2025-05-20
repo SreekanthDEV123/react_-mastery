@@ -1,0 +1,49 @@
+@mixin theme($theme: white) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, 0.25);
+  color: #fff;
+}
+%message-shared {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 70px;
+}
+.header {
+  @extend %message-shared;
+  @include theme($theme: #7a430b);
+
+  .img-logo {
+    height: 70px;
+    width: 100px;
+    // Adjust the dimensions as necessary
+  }
+
+  .nav-items {
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 20px;
+      padding: 5px;
+      li {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+        color: rgb(225, 216, 200);
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        a:hover{
+          color: aqua;
+        }
+        .btn {
+          width: 100px;
+          border-radius: 5rem 10rem;
+        }
+        
+      }
+    }
+  }
+}

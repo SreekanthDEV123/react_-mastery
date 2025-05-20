@@ -1,0 +1,27 @@
+.tableForm {
+  /* width: 1400px; */
+  height: 790px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  /* margin: 15px; */
+  /* padding: 10px; */
+  background-color: ghostwhite;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+custom-hover-table tbody tr:hover {
+  background-color: #ff5050;
+}
+.record {
+  background-color: lightgreen;
+}
