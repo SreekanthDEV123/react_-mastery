@@ -45,10 +45,10 @@ const UserManagement = () => {
   return (
     <div>
       <div className="row">
-        <div className="col col-sm-4 col-md-4  signForm">
+        <div className="col-md-4  signForm">
           <UserForm addUser={addUser} updatingRecord={updatingRecord} />
         </div>
-        <div className="col col-sm-8 col-md-8 tableForm">
+        <div className="col-md-6 tableForm">
           {userInfo.length > 0 && (
             <UserData
               data={userInfo}
@@ -60,9 +60,9 @@ const UserManagement = () => {
           )}
         </div>
       </div>
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <EventBublingCapturing />
-      </div>
+      </div> */}
     </div>
   );
 };
